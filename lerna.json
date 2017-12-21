@@ -1,6 +1,19 @@
 {
   "lerna": "2.5.1",
   "version": "0.0.2",
+  "commands": {
+    "publish": {
+      "ignore": [
+        "**/yarn.lock"
+      ]
+    }
+  },
+  "useWorkspaces": true,
+  "packages": [
+    "packages/*"
+  ],
   "npmClient": "yarn",
-  "useWorkspaces": true
+  "npmClientArgs": [
+    "--no-lockfile"
+  ]
 }
