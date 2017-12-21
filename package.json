@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "publish": "lerna publish"
+  },
+  "dependencies": {
+    "lerna": "^2.5.1"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
