@@ -1,5 +1,5 @@
 {
-  "name": "test-module",
+  "name": "@tkdn/test-module",
   "version": "0.0.1",
   "main": "index.js",
   "license": "MIT",
